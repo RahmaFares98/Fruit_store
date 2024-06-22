@@ -32,16 +32,16 @@
       <div class="container">
         <h1 class="jumbotron-heading">Dojo Fruits</h1>
         <div>
-          <span>Apple Fruit :</span><img class ="firstimg" src="static\img\apple.png" alt="apple">
+          <span>Apple Fruit :</span><img class ="firstimg" src="{{ url_for('static', filename='img/apple.png') }}">
         </div>
         <div>
-          <span>Blackberry Fruit :</span><img class ="img" src="static\img\blackberry.png" alt="blackberry">
+          <span>Blackberry Fruit :</span><img class ="img" src="{{ url_for('static', filename='img/blackberry.png') }}">
         </div>
         <div>
-          <span>Raspberry Fruit :</span><img class ="img" src="static\img\raspberry.png" alt="raspberry">
+          <span>Raspberry Fruit :</span><img src="{{ url_for('static', filename='img/raspberry.png') }}" class ="img" >
         </div>
         <div>
-          <span>Strawberry Fruit :</span> <img class ="img" src="static\img\strawberry.png" alt="strawberry">
+          <span>Strawberry Fruit :</span> <img class ="img" src="{{ url_for('static', filename='img/strawberry.png') }}" >
         </div>
 
         <p>
